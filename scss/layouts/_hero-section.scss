@@ -7,9 +7,7 @@
    
     background-size: cover;
     color: #ffffff;
-    @media screen and (min-width: $bp-tablet) {
-            background-attachment: fixed;
-        }
+
 
 
     &__subtitle {
@@ -41,4 +39,5 @@
             margin-bottom: 95px;
         }
 }
+
 
