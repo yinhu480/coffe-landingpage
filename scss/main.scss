@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@import './utils/variables';
+:root {
+    --color-primary-dark: #31261a;
+    --color-primary-light: #faf4ea;
+    --color-brand-normal: #819b57;
+    --color-brand-light: #f9c06a;
+    --color-brand-dark: #465929;
+    --color-secondary-dark: #a18268;
+}
+
+@import './base';
+
+@import './utils/utils';
+
+@import './layouts/section';
+/* Button */
+@import './components/buttons';
+
+/* Link */
+@import './components/links';
+
+// logo
+@import './components/logo';
+
+/* header */
+@import './layouts/header';
+
+/* hero-section */
+@import './layouts/hero-section';
+
+/* about-section */
+@import './layouts/about-section';
+
+/* style-section */
+@import './layouts/style-section';
+// product-card
+@import './components/product-card';
+
+/* features-section */
+@import './layouts/features-section';
+// feature-card
+@import './components/feature-card';
+
+/* cta-section */
+@import './layouts/cta-section';
+
+
+/* comment-section */
+@import './layouts/comment-section';
+@import './components/comment-card';
+
+
+
+@import './components/carousel-button';
+
+
+
+
+/* subscribe-section */
+@import './layouts/subscribe-section';
+
+
+@import './components/input';
+
+
+
+/* footer */
+
+@import './layouts/footer';

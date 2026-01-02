@@ -1,0 +1,35 @@
+.cta-section {
+    background: linear-gradient(rgba(96, 56, 9, 0.8), rgba(96, 56, 9, 0.8)),
+        url("../img/cup_of_coffee_background.jpg");
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding: 54px 0px;
+
+    &__container {
+        display: grid;
+        grid-template-columns: minmax(0, 575px);
+        align-items: center;
+        justify-items: center;
+        @media screen and (min-width: $bp-tablet) {
+            grid-template-columns: minmax(0, 575px) 1fr;
+        }
+    }
+
+    &__title {
+        color: #fff;
+    }
+
+    &__text {
+        max-width: 470px;
+        padding: 22px 0;
+    }
+    &__img{
+        display: none;
+        @media screen and (min-width: $bp-tablet) {
+            display: block;
+        }
+    }
+}
+

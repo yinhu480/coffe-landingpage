@@ -1,0 +1,10 @@
+.link {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+
+    &:hover {
+            color: #f9c06a;
+        }
+}
+

@@ -1,0 +1,40 @@
+.about-section {
+    margin-top: 82px;
+
+&__container {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        @media screen and (min-width: $bp-tablet) {
+            flex-direction: row;
+            gap: 90px;
+            text-align: left;
+        }
+    }
+
+    &__text {
+        padding: 29px 0;
+    }
+
+    &__img {
+        max-width: 70%;
+
+    }
+}
+// .about-section::after{
+//     content: "";
+//     background: url(../img/coffee_blast.png);
+//     background-repeat: no-repeat;
+//     width: 498px;
+//     height: 272px;
+//     position: absolute;
+//     left: 0;bottom: 0;
+// }
+
+
+
+

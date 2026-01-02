@@ -1,0 +1,29 @@
+.subscribe-section {
+    background: linear-gradient(rgba(96, 56, 9, 0.8), rgba(96, 56, 9, 0.8)),
+        url("../img/cup_of_coffee_background.jpg");
+    color: #ffffff;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding: 80px 0px;
+
+    
+    &__title {
+        color: #ffffff;
+        padding-bottom: 16px;
+    }
+    &__button {
+        border-radius: 4px;
+        font-size: 22px;
+        color: #603809;
+        margin-left: -156px;
+        font-weight: 600;
+    }
+    &__form {
+        padding-top: 26px;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+    }
+}

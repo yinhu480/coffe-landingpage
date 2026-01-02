@@ -1,0 +1,37 @@
+.comment-card {
+    background: #fff9f1;
+    padding: 15px 10px 0px 10px;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    @media screen and (min-width: $bp-tablet) {
+        padding: 129px 100px 0px 100px;
+    }
+    &__figure {
+        display: grid;
+        justify-items: center;
+        margin: 0px;
+        text-align:center;
+    }
+
+    &__text {
+        font-size: 18px;
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 32px;
+        display: block;
+        color: #603809;
+    }
+    &__author-info {
+        padding-bottom: 45px;
+    }
+  
+}
+
+.testimonial__author {
+    margin-bottom: -47px;
+    @media screen and (min-width: $bp-tablet) {
+         margin-bottom: -75px;
+    }
+}
+

@@ -1,0 +1,26 @@
+.input {
+    height: 66px;
+    width: 300px;
+    font-size: 20px;
+    line-height: 1.4;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    border-radius: 4px;
+    @media screen and (min-width: $bp-tablet) {
+        width: 642px;
+    }
+
+        &:focus {
+            outline: none;
+        }
+    
+        &::placeholder {
+            color: #707070;
+            font-size: 20px;
+            line-height: 1.4;
+        }
+    
+        &:focus::placeholder {
+            color: #707070;
+        }
+}
+

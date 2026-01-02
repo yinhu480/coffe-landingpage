@@ -1,0 +1,38 @@
+.product-card {
+    background: #fff9f1;
+    color: #603809;
+
+    &__content {
+        border: 1px solid rgba(249, 192, 106, 0.42);
+        padding-top: 14px;
+        border-top-style: none;
+        display: grid;
+        gap: 6px;
+        justify-items: center;
+    }
+    
+    &__image {
+        width: 100%;
+        display: block;
+    }
+    
+    &__title {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    &__description {
+        font-size: 16px;
+        color: #1e1e1e;
+    }
+    
+    &__price {
+        font-weight: 700;
+    }
+    
+    &__button {
+        margin-top: 18px;
+        margin-bottom: -20px;
+    }
+}
+

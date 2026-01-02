@@ -1,0 +1,46 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 21px;
+    @media screen and (min-width: $bp-tablet) {
+            padding-top: 32px;
+        }
+
+    &__container {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    
+        &__nav {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+        }
+    
+        &__menu {
+            display: none;
+            @media screen and (min-width: $bp-desoktop) {
+                display: flex;
+                gap: 64px;
+                flex-grow: 1;
+                justify-content: center;
+            }
+           
+        }
+    
+        &__actions {
+            display: none;
+            @media screen and (min-width: $bp-desoktop) {
+                display: flex;
+                gap: 35px;
+                align-items: center;
+                justify-content: flex-end;
+            }
+        }
+}
+

@@ -1,0 +1,27 @@
+.feature-card {
+    padding: 27px;
+    display: grid;
+    background: #fff9f1;
+    gap: 8px;
+    color: #603809;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    justify-items: center;
+
+    &:hover {
+            background: #ffeed8;
+        }
+    
+        &__title {
+            font-size: 28px;
+            font-weight: 700;
+        }
+    
+        &__text {
+            color: #707070;
+        }
+    
+        &__img {
+            margin-bottom: 25px;
+        }
+}
+

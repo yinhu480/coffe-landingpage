@@ -1,0 +1,19 @@
+.button {
+    background-color: #f9c06a;
+    color: #000;
+    border: 2px solid #f9c06a;
+    border-radius: 24px;
+    cursor: pointer;
+    padding: 14px 23px;
+
+    &:hover {
+            background-color: transparent;
+            color: #fff;
+        }
+    
+        &-light:hover {
+            color: #603809;
+            background: fff9f1;
+        }
+}
+

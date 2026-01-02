@@ -1,0 +1,20 @@
+.section {
+        padding: 25px 0;
+
+        @media screen and (min-width: $bp-tablet) {
+                padding: 41px 0;
+        }
+}
+.section__title {
+        color: #603809;
+        font-weight: 700;
+        font-size: 34px;
+        padding-bottom: 16px;
+        @media screen and (min-width: $bp-tablet) {
+                font-size: 54px;
+        }
+}
+
+.section__title.centered {
+        text-align: center;
+}

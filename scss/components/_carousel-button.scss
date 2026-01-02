@@ -1,0 +1,22 @@
+.carousel-button {
+    background: #f9c06a;
+    border: none;
+    padding: 29px;
+    border-radius: 16px;
+
+    display: none;
+    
+        @media screen and (min-width: $bp-tablet) {
+            display: block;
+        }
+}
+
+.carousel-button.previous {
+    margin-right: -37px;
+    z-index: 2;
+}
+
+.carousel-button.next {
+    transform: rotate(180deg);
+    margin-left: -37px;
+}
